@@ -38,7 +38,16 @@
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              This is the first item's accordion bodyIt is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within thethough the transition does limit overflow.
+                <strong>LocalStorage:</strong> 
+
+                Web storage can be viewed simplistically as an improvement on cookies, providing much greater storage capacity. Available size is 5MB which considerably more space to work with than a typical 4KB cookie.
+                The data is not sent back to the server for every HTTP request (HTML, images, JavaScript, CSS, etc) - reducing the amount of traffic between client and server.
+                The data stored in localStorage persists until explicitly deleted. Changes made are saved and available for all current and future visits to the site​
+                <strong>SessionStorage:</strong> 
+
+                It is similar to localStorage.
+                Changes are only available per window (or tab in browsers like Chrome and Firefox). Changes made are saved and available for the current page, as well as future visits to the site on the same window. Once the window is closed, the storage is deleted
+                The data is available only inside the window/tab in which it was set​
             </div>
           </div>
         </div>
@@ -50,7 +59,13 @@
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              This is the first item's accordion bodyIt is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within thethough the transition does limit overflow.
+                <strong>The Global scope:
+                </strong>
+                A variable exists inside or outside a block. If a variable is declared outside all functions or curly braces ({}), it exists in the global scope. The global variables can be accessed by any line of code in the program, including inside blocks.
+                <br><strong>
+                    Block Scope: 
+                </strong>
+                A variable when declared inside the if or switch conditions or inside for or while loops, are accessible within that particular condition or loop.
             </div>
           </div>
         </div>
@@ -62,7 +77,13 @@
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              This is the first item's accordion bodyIt is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within thethough the transition does limit overflow.
+                The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading. Let’s take a look at what happens on the back-end.
+
+                The call stack is responsible for keeping track of all the operations in line to be executed. Whenever a function is finished, it is popped from the stack.
+                
+                The event queue is responsible for sending new functions to the stack for processing. It follows the queue data structure to maintain the correct sequence in which all operations should be sent for execution.
+                
+                Whenever an async function is called, it is sent to a browser API. These are APIs built into the browser. Based on the command received from the call stack, the API starts its own single-threaded operation.
             </div>
           </div>
         </div>
@@ -74,7 +95,14 @@
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              This is the first item's accordion bodyIt is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within thethough the transition does limit overflow.
+                The undefined type belongs to the primitive data types that can have only one value i.e. undefined. A variable that is declared/created but not assigned with a value anywhere in the program has a default value of “undefined”.
+                In javascript, there are many reasons why we might get an undefined value: 
+                <ul>
+                    <li><strong>variable declared but not defined</strong></li>
+                    <li><strong>Strict equality and undefined</strong></li>
+                    <li><strong>typeof operator and undefined</strong></li>
+                    <li><strong>void operator and undefined</strong></li>
+                </ul>
             </div>
           </div>
         </div>
